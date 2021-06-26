@@ -6,8 +6,9 @@ def sstr(string, sw):
         print
         if sw in i:
             p=lstr.index(i)+1
+            break
         else:
             p=-1
     print(p)
 
-sstr("i love eating burger","bur")
+sstr("i love eating burger","burg")
